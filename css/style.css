@@ -1,0 +1,49 @@
+#example-7 {
+  font: 15px/1.25 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #eee;
+  padding: 15px;
+  overflow: hidden;
+  float: left;
+  margin: 20px;
+}
+#example-7 .control {
+  width: 40px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#example-7 .control:last-child {
+  margin-right: 0;
+}
+#example-7 .control:hover {
+  background-color: #666;
+}
+#example-7 .display {
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+#example-7 .percentage {
+  width: 70px;
+  text-align: right;
+  font-size: 24px;
+  float: left;
+}
+#example-7 .bar {
+  height: 30px;
+}
+#example-7 .bar.inner {
+  background-color: #00c;
+}
+.completed#example-7 .bar.inner {
+  background-color: #0c0;
+}
+#example-7 .bar.outer {
+  width: 250px;
+  background-color: #fff;
+  float: left;
+  margin-right: 5px;
+}

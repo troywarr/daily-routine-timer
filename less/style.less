@@ -1,0 +1,58 @@
+#example-7 {
+  font: 15px/1.25 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #eee;
+  padding: 15px;
+  overflow: hidden;
+  float: left;
+  margin: 20px;
+
+  .control {
+    width: 40px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      background-color: #666;
+    }
+  }
+
+  .display {
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+
+  .percentage {
+    width: 70px;
+    text-align: right;
+    font-size: 24px;
+    float: left;
+  }
+
+  .bar {
+    height: 30px;
+
+    &.inner {
+      background-color: #00c;
+
+      .completed& {
+        background-color: #0c0;
+      }
+    }
+
+    &.outer {
+      width: 250px;
+      background-color: #fff;
+      float: left;
+      margin-right: 5px;
+    }
+  }
+}
